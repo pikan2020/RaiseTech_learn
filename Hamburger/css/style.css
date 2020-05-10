@@ -1,0 +1,18 @@
+.l-header {
+  color: #707070;
+  background-color: #FFF7EF;
+}
+
+.l-header__img {
+  position: relative;
+  width: 100%;
+}
+
+.l-header__img p {
+  position: absolute;
+  color: #FFFFFF;
+  font-size: 40px;
+  top: 50%;
+  left: 30px;
+}
+/*# sourceMappingURL=style.css.map */
