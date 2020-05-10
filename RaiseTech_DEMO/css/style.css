@@ -1,0 +1,40 @@
+
+
+
+
+
+/* Header */
+.Header {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.Header .Header__title {
+    margin-left: 15px;
+}
+
+.Header .Header__title a {
+    display: flex;
+}
+
+.Header .Header__title span {
+    margin-left: 15px;
+    white-space: nowrap;
+    /* font-size: 1.0rem; */
+}
+
+
+
+.title {
+    /* float: left; */
+    display: flex;
+}
+
+li {
+    list-style: none;
+    float: left;
+}
+
+
+
