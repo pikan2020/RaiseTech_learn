@@ -1,18 +1,96 @@
-.l-header {
+h1 {
   color: #707070;
+  font-size: 64px;
+  font-family: roboto;
+}
+
+.header {
+  display: flex;
   background-color: #FFF7EF;
+  width: 1533px;
+  height: 217px;
 }
 
-.l-header__img {
+.header__logo {
+  width: 325px;
+  height: 84px;
+  margin: 67px 0px 0px 65px;
+}
+
+.main__top {
   position: relative;
-  width: 100%;
 }
 
-.l-header__img p {
+.main__top img {
+  vertical-align: top;
+  width: 1533px;
+  height: 530px;
+}
+
+.main__top span {
   position: absolute;
+  top: 239px;
+  left: 86px;
   color: #FFFFFF;
   font-size: 40px;
-  top: 50%;
-  left: 30px;
+  font-family: bold;
+}
+
+.main__section1 {
+  position: relative;
+}
+
+.main__section1__img1 {
+  display: inline-block;
+  margin: 120px 0px 0px 111px;
+}
+
+.main__section1__img1 img {
+  vertical-align: top;
+  width: 625px;
+  height: 1193px;
+}
+
+.main__section1__img1 span {
+  position: absolute;
+  top: 140px;
+  left: 130px;
+  color: #FFFFFF;
+  font-size: 80px;
+  font-family: roboto;
+}
+
+.main__section1__img1 hr {
+  position: absolute;
+  top: 280.5px;
+  left: 137.5px;
+  border-bottom: 4px solid #FFFFFF;
+}
+
+.main__section1__img2 {
+  display: inline-block;
+}
+
+.main__section1__img2 img {
+  vertical-align: top;
+  width: 625px;
+  height: 1193px;
+  margin-left: 80px;
+}
+
+.main__section1__img2 span {
+  position: absolute;
+  top: 140px;
+  left: 838px;
+  color: #FFFFFF;
+  font-size: 80px;
+  font-family: roboto;
+}
+
+.main__section1__img2 hr {
+  position: absolute;
+  top: 280.5px;
+  left: 841.5px;
+  border-bottom: 4px solid #FFFFFF;
 }
 /*# sourceMappingURL=style.css.map */
