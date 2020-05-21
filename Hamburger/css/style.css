@@ -93,4 +93,20 @@ h1 {
   left: 841.5px;
   border-bottom: 4px solid #FFFFFF;
 }
+
+footer {
+  background-color: #9D8670;
+  text-align: center;
+  padding: 150px;
+}
+
+footer p {
+  color: #FFFFFF;
+  font-size: 0.85rem;
+  font-family: 'mplus-1p-regular';
+}
+
+footer a {
+  font-size: 20px;
+}
 /*# sourceMappingURL=style.css.map */

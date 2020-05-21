@@ -22,6 +22,7 @@ h1 {
 
 
 .main {
+    // background-color: blue;
     &__top {
         position: relative;
         img {
@@ -92,3 +93,16 @@ h1 {
     }
 }
 
+footer {
+    background-color: #9D8670;
+    text-align: center;
+    padding: 150px;
+    p {
+        color: #FFFFFF;
+        font-size: 0.85rem;
+        font-family: 'mplus-1p-regular';
+    }
+    a {
+        font-size: 20px;
+    }
+}
