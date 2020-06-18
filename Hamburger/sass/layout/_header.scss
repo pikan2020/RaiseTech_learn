@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    background-color: #FFF7EF;
+    width: 80%;
+    // width: 1533px;
+    justify-items: center;
+    height: 217px;
+    &__logo {
+        width: 325px;
+        height: 84px;
+        // margin: 67px 0px 0px 65px;
+        margin-top: 4.5%;
+        margin-left: 4.2%;
+    }
+}
+
+h1 {
+    color: #707070;
+    // font-size: 64px;
+    font-size: 4rem;
+    font-family: roboto;
+}
