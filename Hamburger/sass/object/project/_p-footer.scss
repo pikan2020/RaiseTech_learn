@@ -1,0 +1,16 @@
+.p-footer {
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    &__link {
+        padding: 43px 5px 5px 5px;
+        // margin: 43px 5px 5px 5px;
+        font-size: 1.25rem;
+        // font-size: 20px;
+    }
+    &__copyright {
+
+        font-size: 0.85rem;
+        font-family: 'mplus-1p-regular';
+    }
+}

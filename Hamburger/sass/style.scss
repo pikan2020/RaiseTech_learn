@@ -1,7 +1,20 @@
+// Foundation
 @import "./foundation/reset";
 @import "./foundation/base";
-@import "./layout/header";
-@import "./layout/main";
-@import "./layout/sidebar";
-@import "./layout/footer";
+
+// layout
+@import "./layout/l-header";
+@import "./layout/l-sidebar";
+@import "./layout/l-main";
+@import "./layout/l-footer";
+
+// Component
+// @import "./object/component/*;"
+
+// Project
+@import "./object/project/p-header";
+@import "./object/project/p-footer";
+
+// Utility
+// @import "./object/utility/*;"
 
