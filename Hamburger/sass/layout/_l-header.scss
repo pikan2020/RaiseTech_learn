@@ -1,6 +1,6 @@
 .l-header {
+    // grid-area: header;
+    grid-row: 1/2;
+    grid-column: 1/1;
     background-color: #FFF7EF;
-    width: 80%;
-    height: 217px;
-    // width: 1533px;
 }
