@@ -4,6 +4,18 @@ body {
     grid-template-columns: 1fr 20%;
 }
 
+a {
+    text-decoration: none;
+}
+
+li, dl, dt, dd {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
 // @mixin breakpoint( $point ) {
 
 // }
