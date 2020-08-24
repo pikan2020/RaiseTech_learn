@@ -1,4 +1,21 @@
 .p-sidebar {
-    margin-top: 10rem;
+    padding: 3rem;
     color: #707070;
+    &__menu {
+        padding: 3rem 0;
+        font-size: 3.4rem;
+        font-family: Roboto;
+        font-weight: bold;
+    }
+    ul {
+        font-size: 2.4rem;
+        padding-bottom: 2rem;
+    }
+    li {
+        padding: 2rem;
+        font-size: 2rem;
+        line-height: 5rem;
+        
+    }
+
 }

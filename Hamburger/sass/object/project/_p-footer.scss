@@ -1,18 +1,18 @@
 .p-footer {
-    text-align: center;
     color: #FFFFFF;
-    display: flex;
-    height: 150px;
-    &__link {
-        color: #FFF;
-        padding: 43px 5px 5px 5px;
-        // margin: 43px 5px 5px 5px;
-        font-size: 1.25rem;
-        // font-size: 20px;
-    }
-    &__copyright {
-
-        font-size: 0.85rem;
+    height: 5rem;
+    padding: 3rem;
+    &__info {
+        text-align: center;
         font-family: 'mplus-1p-regular';
+        font-size: 1.25rem;
+        &__shop {
+        }
+        &__history {
+        }
+        &__copyright {
+            margin-top: 39px;
+            font-size: 0.85rem;
+        }
     }
 }

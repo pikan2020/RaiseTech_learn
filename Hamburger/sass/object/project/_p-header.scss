@@ -2,15 +2,13 @@
     display: flex;
     justify-content: space-between;
     &__logo {
-        width: 325px;
-        height: 84px;
-        // margin: 67px 0px 0px 65px;
-        margin-top: 4.5%;
-        margin-left: 4.2%;
+        padding: 5rem;
         color: #707070;
-        // font-size: 64px;
         font-size: 4rem;
         font-family: Roboto;
         font-weight: bold;
+    }
+    &__seach {
+        padding: 5rem;
     }
 }
