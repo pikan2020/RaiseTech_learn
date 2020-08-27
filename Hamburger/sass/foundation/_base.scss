@@ -10,7 +10,9 @@ body {
 
 a {
     text-decoration: none;
-    color: #FFF;
+    &:hover {
+        opacity: .7;
+    }
 }
 
 li, dl, dt, dd {
