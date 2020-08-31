@@ -4,8 +4,8 @@ html {
 
 body {
     display: grid;
-    grid-template-rows: 21rem 1fr;
-    grid-template-columns: 1fr 36rem;
+    grid-template-rows: 8% 1fr;
+    grid-template-columns: 1fr 18%;    
 }
 
 a {
@@ -23,6 +23,6 @@ img {
     max-width: 100%;
 }
 
-// @mixin breakpoint( $point ) {
-
-// }
+button {
+    border-style: none;
+}

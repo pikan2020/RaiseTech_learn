@@ -1,25 +1,25 @@
 .p-main {
-    color: #FFF;
     &__top {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
         background: url("../common/img/main01.png") no-repeat center center;
         background-size: cover;
         width: 100%;
+    }
+    span {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;    
+        padding-left: 10rem;
+        color: #FFF;
+        font-size: 4rem;
+        font-family: bold;
         height: 53rem;
         }
-        span {
-            padding-left: 10rem;
-            font-size: 4rem;
-            font-family: bold;
-        }    
 }
 .p-article {
     display: flex;
     justify-content: space-around;
     padding: 12rem 0;
-    height: 130rem;
+    height: inherit;
     font-family: Roboto bold;
     &__subsec01 {
         background: url("../common/img/main02.png") no-repeat;
@@ -39,7 +39,6 @@
 
 .p-section {
     display: flex;
-    height: 60rem;
     &__map {
         display: flex;
         background: url("../common/img/map01.png") no-repeat;
@@ -54,13 +53,21 @@
             opacity: 0.8;
             padding: 6rem;
         }
+        hr {
+            border-bottom: 0.2rem solid #FFFFFF;
+            width: 8rem;
+            text-align: left;
+            margin-left: 2rem;
+        }
         dt {
-            padding: 2rem;
+            padding: 2rem 2rem 6rem 2rem;
+            color: #FFF;
             font-size: 3.6rem;
             font-family: 'mplus-1p-bold';
         }
         dd {
-            padding: 0 2rem;
+            padding: 6rem 2rem 0 2rem;
+            color: #FFF;
             font-size: 1.6rem;
             line-height: 3.5rem;
             font-family: 'mplus-1p-bold';

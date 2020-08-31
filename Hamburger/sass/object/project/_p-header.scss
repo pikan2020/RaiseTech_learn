@@ -6,7 +6,7 @@
         flex-direction: column;
         justify-content: center;
         padding-left: 5rem;
-        height: 21rem;
+        height: 24rem;
         h1 {
             color: #707070;
             font-size: 6rem;
@@ -19,25 +19,17 @@
         flex-direction: column;
         justify-content: center;
         padding: 5rem;
-        &__text {
-            height: 4.6rem;
-            width: 40rem;
-            padding-left: 4rem;
-            border: 1px solid #707070;
-            border-radius: 1rem;
-            font-size: 2rem;
-            background-color: #fff;
-            background: #fff url("../common/img/glass01.png") 8px no-repeat;
-        }
-        &__btn {
-            margin-left: 1rem;
-            height: 5.2rem;
-            width: 14rem;
-            border: 1px solid #707070;
-            border-radius: 1rem;
-            font-size: 1.6rem;
-            color: #707070;
-            background: transparent linear-gradient(180deg, #F2EDE9 0%, #DED8D3 100%) 0% 0% no-repeat padding-box;
-        }
+        @import "../component/serch";
+    }
+    &__menu {
+        display: none;
+        padding: 2rem 5rem;
+        background-color: transparent;
+        text-align: right;
+        color: #707070;
+        font-size: 3.5rem;
+        font-family: 'mplus-1p-bold';
+        font-weight: bold;
+        height: 3rem;
     }
 }

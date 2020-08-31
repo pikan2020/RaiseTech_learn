@@ -1,0 +1,34 @@
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 40%;
+    }
+    body {
+        grid-template-rows: 12% 1fr;
+        grid-template-columns: 1fr;    
+    }
+    .p-header {
+        flex-direction: column;
+        justify-content: center;
+        &__menu {
+            display: block;
+        }    
+        &__logo {
+            flex-direction: unset;
+            height: 5rem;
+            padding: 2rem 0;
+        }
+        &__seach {
+            flex-direction: unset;
+        }
+    }
+    .l-sidebar {
+        display: none;
+    }
+    .p-section {
+        &__map {
+            dl {
+                width: 100%;
+            }
+        }
+    }
+}
