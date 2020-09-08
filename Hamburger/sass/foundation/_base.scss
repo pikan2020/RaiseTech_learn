@@ -5,7 +5,11 @@ html {
 body {
     display: grid;
     grid-template-rows: 8% 1fr;
-    grid-template-columns: 1fr 18%;    
+    grid-template-columns: 1fr 18%;
+    grid-template-areas:
+        "header sidebar"
+        "main sidebar"
+        "hooter hooter";
 }
 
 a {

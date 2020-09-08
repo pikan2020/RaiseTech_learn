@@ -51,6 +51,7 @@ body {
   display: grid;
   grid-template-rows: 8% 1fr;
   grid-template-columns: 1fr 18%;
+  grid-template-areas: "header sidebar" "main sidebar" "hooter hooter";
 }
 
 a {
@@ -74,20 +75,17 @@ button {
 }
 
 .l-header {
-  grid-row: 1/2;
-  grid-column: 1/2;
+  grid-area: header;
   background-color: #FFF7EF;
 }
 
 .l-sidebar {
-  grid-row: 1/3;
-  grid-column: 2/3;
+  grid-area: sidebar;
   background-color: #F2EDE9;
 }
 
 .l-main {
-  grid-row: 2/3;
-  grid-column: 1/2;
+  grid-area: main;
 }
 
 .l-footer {
@@ -390,8 +388,20 @@ button {
     font-size: 40%;
   }
   body {
-    grid-template-rows: 12% 1fr;
+    grid-template-rows: 10% 1fr;
     grid-template-columns: 1fr;
+    position: relative;
+  }
+  body .content-wrapper {
+    position: absolute;
+    height: 105%;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    opacity: 0.5;
+    transform: translate(800px);
+    z-index: 5;
+    transition: all .5s;
   }
   .p-header {
     flex-direction: column;
@@ -409,6 +419,17 @@ button {
     flex-direction: unset;
   }
   .l-sidebar {
+    position: fixed;
+    right: 0;
+    height: 100%;
+    width: 36.5rem;
+    z-index: 10;
+    transition: all .5s;
+  }
+  .p-sidebar {
+    padding-top: 5rem;
+  }
+  .p-sidebar__title {
     display: none;
   }
   .p-section__map dl {
