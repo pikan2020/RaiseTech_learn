@@ -19,4 +19,18 @@
     a {
         color: #707070;
     }
+    @include pc {
+    };
+    @include tab {
+        padding-top: 5rem;
+        &__title {
+            display: none;
+        }
+    };
+    @include sp {
+        padding-top: 5rem;
+        &__title {
+            display: none;
+        }
+    };
 }

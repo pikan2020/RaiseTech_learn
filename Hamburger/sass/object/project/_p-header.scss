@@ -21,15 +21,47 @@
         padding: 5rem;
         @import "../component/serch";
     }
-    &__menu {
+    &__btn {
         display: none;
-        padding: 2rem 5rem;
-        background-color: transparent;
-        text-align: right;
-        color: #707070;
-        font-size: 3.5rem;
-        font-family: 'mplus-1p-bold';
-        font-weight: bold;
-        height: 3rem;
     }
+    @include pc {
+    };
+    @include tab {
+        flex-direction: column;
+        &__btn {
+            display: inline-block;
+            margin: 2.8rem 4.1rem 0 0;
+            text-align: right;
+            .p-header__menu {
+                background-color: transparent;
+                color: #707070;
+                font-size: 3.5rem;
+                font-family: 'mplus-1p-bold';
+                font-weight: bold;
+            }
+        }    
+        &__logo {
+            flex-direction: unset;
+            height: 5rem;
+            padding: 2rem 0;
+        }
+        &__seach {
+            flex-direction: unset;
+        }
+    };
+    @include sp {
+        flex-direction: column;
+        justify-content: center;
+        &__menu {
+            display: block;
+        }    
+        &__logo {
+            flex-direction: unset;
+            height: 5rem;
+            padding: 2rem 0;
+        }
+        &__seach {
+            flex-direction: unset;
+        }
+    };
 }

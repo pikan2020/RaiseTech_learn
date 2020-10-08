@@ -52,6 +52,9 @@
             background-color: #000;
             opacity: 0.8;
             padding: 6rem;
+            @include tab {
+                width: 100%;
+            };
         }
         hr {
             border-bottom: 0.2rem solid #FFFFFF;

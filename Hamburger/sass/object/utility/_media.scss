@@ -9,12 +9,12 @@
         .content-wrapper {
             position: absolute;
             height: 105%;
-            // width: 100%;
+            width: 100%;
             top:0;
             left:0;
             background-color: #000000;
             opacity: 0.5;
-            transform: translate(800px);
+            transform: translate(100%);
             z-index: 5;
             transition: all .5s;
         }
@@ -40,7 +40,7 @@
         height: 100%;
         width: 36.5rem;
         z-index: 10;
-        // transform: translate(800px);
+        transform: translate(800px);
         transition: all .5s;
     }
     .p-sidebar{
