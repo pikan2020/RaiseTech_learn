@@ -7,6 +7,10 @@
     font-size: 2rem;
     background-color: #fff;
     background: #fff url("../common/img/glass01.png") 8px no-repeat;
+    @include sp {
+        height: 5rem;
+        width: 30rem;
+    }
 }
 &__btn {
     margin-left: 1rem;
@@ -17,4 +21,8 @@
     font-size: 1.6rem;
     color: #707070;
     background: transparent linear-gradient(180deg, #F2EDE9 0%, #DED8D3 100%) 0% 0% no-repeat padding-box;
+    @include sp {
+        height: 5.8rem;
+        width: 10rem;
+    }
 }

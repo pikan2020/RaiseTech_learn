@@ -27,43 +27,31 @@
             text-align: right;
             position: fixed;
             .close__btn {
-                margin: 0;
-                background-color: blue;
                 position: fixed;
-                right: 10px;
-                top: 10px;
+                top: 1rem;
+                right: 1rem;
                 width: 50px;
                 height: 50px;
+                background: url("../common/img/close.png") 8px no-repeat;
                 span {
                     display: block;
                     width: 80%;
                     margin: auto;
-                    height: 4px;
-                    background-color: #000;
-                    border-radius: 3px;
-                    position: relative;
-                    // position: absolute;
                     left: 0;
                     right: 0;
-                    top: calc((100% - 4px)/2);
+                    background-color: #707070;
+                    height: 4px;
+                    border-radius: 3px;
                     .menu__lineTop {
-                        content: "";
-                        display: block;
-                        background: #000;
                         transform: rotate(45deg);
-                        // transform-origin:0% 50%;
-                        position: absolute;
-                        top: calc(14% - 5px);
-                        left: 14%;
-                        // transform: rotate(45deg);
                     }
                     .menu__lineMiddle {
                         opacity: 0;
                     }
                     .menu__lineBottom {
-                        // position: relative;
                         transform: rotate(-45deg);  
                     }
+                    display: none; //調整中
                 }
             }
         }

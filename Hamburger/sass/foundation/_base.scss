@@ -4,7 +4,7 @@ html {
         font-size: 40%;
     };
     @include sp {
-        font-size: 40%;
+        font-size: 50%;
     };
 }
 
@@ -19,25 +19,13 @@ body {
     @include tab {
         grid-template-rows: 12% 1fr;
         grid-template-columns: 1fr;
-        position: relative;
         grid-template-areas:
             "header"
             "main"
             "hooter";
-        .content-wrapper {
-            position: absolute;
-            height: 101%;
-            width: 0;
-            top:0;
-            right:0;
-            background-color: #000000;
-            opacity: 0.5;
-            transform: translate(100%);
-            z-index: 5;
-            transition: all .5s;
-        }
-    };
+        };
     @include sp {
+        grid-template-rows: 8% 1fr;
     };
 }
 

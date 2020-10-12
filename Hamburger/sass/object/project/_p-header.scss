@@ -18,16 +18,23 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding: 5rem;
+        margin-left: auto;
+        margin-right: 5rem;
         @import "../component/serch";
     }
     &__btn {
         display: none;
     }
-    @include pc {
-    };
     @include tab {
         flex-direction: column;
+        &__logo {
+            margin: auto;
+            height: 8rem;
+            padding: 0 0 6rem 0;
+        }
+        &__seach {
+            margin: auto;
+        }
         &__btn {
             display: inline-block;
             margin: 4rem 4rem 0 0;
@@ -39,29 +46,14 @@
                 font-family: 'mplus-1p-bold';
                 font-weight: bold;
             }
-        }    
-        &__logo {
-            flex-direction: unset;
-            height: 5rem;
-            padding: 2rem 0;
-        }
-        &__seach {
-            flex-direction: unset;
         }
     };
     @include sp {
-        flex-direction: column;
-        justify-content: center;
-        &__menu {
-            display: block;
-        }    
-        &__logo {
-            flex-direction: unset;
-            height: 5rem;
-            padding: 2rem 0;
-        }
-        &__seach {
-            flex-direction: unset;
+        &__btn {
+            margin: 1rem 1rem 0 0;
+            .p-header__menu {
+                font-size: 2.5rem;
+            }
         }
     };
 }
