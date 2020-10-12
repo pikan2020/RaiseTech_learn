@@ -43,6 +43,14 @@ table {
   border-spacing: 0;
 }
 
+li, dl, dt, dd {
+  list-style: none;
+}
+
+button {
+  border-style: none;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -88,16 +96,8 @@ a:hover {
   opacity: .7;
 }
 
-li, dl, dt, dd {
-  list-style: none;
-}
-
 img {
   max-width: 100%;
-}
-
-button {
-  border-style: none;
 }
 
 .l-header {
@@ -123,7 +123,7 @@ button {
   .content-wrapper {
     position: fixed;
     height: 100%;
-    width: 0;
+    width: 0%;
     top: 0;
     right: 0;
     background-color: #000000;
@@ -140,6 +140,7 @@ button {
     z-index: 10;
     transform: translate(100%);
     transition: all .5s;
+    overflow: auto;
   }
 }
 
@@ -533,7 +534,7 @@ button {
     right: 1rem;
     width: 50px;
     height: 50px;
-    background: url("../common/img/close.png") 8px no-repeat;
+    background: url("../common/img/close.png") 6px no-repeat;
   }
   .p-sidebar__close .close__btn span {
     display: block;

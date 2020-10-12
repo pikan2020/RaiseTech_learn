@@ -2,7 +2,7 @@
     .content-wrapper {
         position: fixed;
         height: 100%;
-        width: 0;
+        width: 0%;
         top:0;
         right:0;
         background-color: #000000;
@@ -19,8 +19,6 @@
         z-index: 10;
         transform: translate(100%);
         transition: all .5s;
-        @include sp {
-            // height: 200rem;
-        };    
+        overflow: auto;
     }
 };

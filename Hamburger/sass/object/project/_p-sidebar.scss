@@ -19,8 +19,6 @@
     a {
         color: #707070;
     }
-    @include pc {
-    };
     @include tab {
         padding-top: 5rem;
         &__close {
@@ -32,7 +30,7 @@
                 right: 1rem;
                 width: 50px;
                 height: 50px;
-                background: url("../common/img/close.png") 8px no-repeat;
+                background: url("../common/img/close.png") 6px no-repeat;
                 span {
                     display: block;
                     width: 80%;
@@ -58,7 +56,5 @@
         &__title {
             display: none;
         }
-    };
-    @include sp {
     };
 }
